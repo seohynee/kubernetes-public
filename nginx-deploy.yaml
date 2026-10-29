@@ -16,8 +16,8 @@ spec:
     spec:
       imagePullSecrets:
       - name: ecr-secret
-      containers:
+    containers:
       - name: eks-nginx
-        image: 595362810845.dkr.ecr.ap-northeast-2.amazonaws.com/ecr-nginx:v2.0
+        image: 811221506617.dkr.ecr.ap-northeast-2.amazonaws.com/ecr-nginx:v2.0
         ports:
         - containerPort: 80
